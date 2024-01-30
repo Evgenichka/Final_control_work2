@@ -8,4 +8,8 @@ public class Toys {
         this.name = name;
         this.qty = qty;
     }
-
+ @Override
+    public String toString() {
+        return name;
+    }
+}
