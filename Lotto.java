@@ -14,7 +14,7 @@ public class Lotto {
     }
 
     public String getToysQty() {
-        StringBuilder toysQty = new StringBuilder("\nЭто:\n");
+        StringBuilder toysQty = new StringBuilder("\nНе разыграны:\n");
         for (Toy toy : toys) {
             toysQty.append(String.format("%s: %s\n",
                     toy.name,
