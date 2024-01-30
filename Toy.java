@@ -1,4 +1,4 @@
-public class Toys {
+public class Toy {
    public int id;
    public String name;
    public int qty;
